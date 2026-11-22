@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T09:23:39.405Z",
+  "updatedAt": "2026-11-22T11:10:34.286Z",
   "plugins": [
     {
       "id": "changelog-writer",
@@ -76,6 +76,33 @@
           "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/commit-style-zh/skills/commit-style-zh/SKILL.md",
           "sha256": "2832de19d02d59b80214f7489b1d5b6dce75ee501ac38478da50f6106f4efd84",
           "bytes": 1743
+        }
+      ]
+    },
+    {
+      "id": "csv-preview",
+      "name": "CSV 预览与解读",
+      "version": "1.0.0",
+      "description": "看 CSV/TSV:先诊断分隔符、编码与列类型,再抽样并给出列含义、异常值与可直接用的过滤/汇总写法。",
+      "author": "luban",
+      "license": "MIT",
+      "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/csv-preview",
+      "tags": [
+        "csv",
+        "tsv",
+        "数据",
+        "表格",
+        "预览"
+      ],
+      "skills": [
+        "csv-preview"
+      ],
+      "files": [
+        {
+          "path": "skills/csv-preview/SKILL.md",
+          "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/csv-preview/skills/csv-preview/SKILL.md",
+          "sha256": "3ef2fc03dbf5c6f7cc0e3276a69ea4f7b43c8cad8f36be73154ccc89b194ec98",
+          "bytes": 3619
         }
       ]
     },

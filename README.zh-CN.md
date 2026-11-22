@@ -7,7 +7,7 @@
 **给 [luban](https://github.com/holylong/luban) 的技能货架——一个 JSON 目录,点一下就装好。**
 
 [![license](https://img.shields.io/badge/license-MIT-3da639?style=flat-square)](LICENSE)
-[![plugins](https://img.shields.io/badge/plugins-4-2f81f7?style=flat-square)](plugins)
+[![plugins](https://img.shields.io/badge/plugins-5-2f81f7?style=flat-square)](plugins)
 [![schema](https://img.shields.io/badge/schema-v1-8957e5?style=flat-square)](plugins.json)
 [![luban](https://img.shields.io/badge/luban-2.9.5%2B-ff8c42?style=flat-square)](https://github.com/holylong/luban/releases)
 
@@ -30,6 +30,7 @@ luban 的插件就是**技能包**:几个 `SKILL.md` 装进 `~/.luban/skills/`,�
 | **[中文提交信息](plugins/commit-style-zh)**<br><sub>`commit-style-zh`</sub> | 提交信息写成「前缀 + 一句话 + 讲动机的正文」,附正反例和自检清单。 | 1.0.0 | `commit-style-zh` |
 | **[SQL 与索引审阅](plugins/sql-review)**<br><sub>`sql-review`</sub> | 先解释执行计划再改写:认出隐式类型转换、前导通配符、复合索引列序,给出可验证的改写。 | 1.0.0 | `sql-review` |
 | **[更新日志撰写](plugins/changelog-writer)**<br><sub>`changelog-writer`</sub> | 从 git 历史写更新日志:按用户可见变化归类,过滤重构噪音,破坏性变更写迁移说明。 | 1.0.0 | `changelog-writer` |
+| **[CSV 预览与解读](plugins/csv-preview)**<br><sub>`csv-preview`</sub> | 先看字节再解析(分隔符、BOM、换行),按列查类型、缺失与异常值,给出可直接运行、只读不改的命令。 | 1.0.0 | `csv-preview` |
 
 每个技能都是这个仓库里的纯 markdown,装之前可以先读 `plugins/<id>/skills/` 下的 `SKILL.md`。
 

@@ -7,7 +7,7 @@
 **A shelf of skill packs for [luban](https://github.com/holylong/luban) — one JSON catalog, one click to install.**
 
 [![license](https://img.shields.io/badge/license-MIT-3da639?style=flat-square)](LICENSE)
-[![plugins](https://img.shields.io/badge/plugins-4-2f81f7?style=flat-square)](plugins)
+[![plugins](https://img.shields.io/badge/plugins-5-2f81f7?style=flat-square)](plugins)
 [![schema](https://img.shields.io/badge/schema-v1-8957e5?style=flat-square)](plugins.json)
 [![luban](https://img.shields.io/badge/luban-2.9.5%2B-ff8c42?style=flat-square)](https://github.com/holylong/luban/releases)
 
@@ -32,6 +32,7 @@ The desktop app reads this repo's `plugins.json` directly, so the status bar's
 | **[Chinese commit messages](plugins/commit-style-zh)**<br><sub>`commit-style-zh`</sub> | Subject line plus a body that explains *why*, with good/bad examples and a self-check list. | 1.0.0 | `commit-style-zh` |
 | **[SQL & index review](plugins/sql-review)**<br><sub>`sql-review`</sub> | Explains the plan before rewriting, spots implicit casts, leading wildcards and wrong composite-index order, and hands back a rewrite you can verify. | 1.0.0 | `sql-review` |
 | **[Changelog writing](plugins/changelog-writer)**<br><sub>`changelog-writer`</sub> | Turns a git history into release notes: grouped by user-visible change, refactor noise filtered out, breaking changes with migration notes. | 1.0.0 | `changelog-writer` |
+| **[CSV & TSV reading](plugins/csv-preview)**<br><sub>`csv-preview`</sub> | Checks the bytes before parsing (BOM, line endings, real separator), then walks each column for type, missing values and outliers and hands back a command you can run. | 1.0.0 | `csv-preview` |
 
 Every skill is plain markdown in this repo — read the `SKILL.md` under `plugins/<id>/skills/` before installing.
 

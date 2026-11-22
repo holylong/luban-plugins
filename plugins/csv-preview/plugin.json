@@ -1,0 +1,16 @@
+{
+  "id": "csv-preview",
+  "name": "CSV 预览与解读",
+  "version": "1.0.0",
+  "description": "看 CSV/TSV:先诊断分隔符、编码与列类型,再抽样并给出列含义、异常值与可直接用的过滤/汇总写法。",
+  "author": "luban",
+  "license": "MIT",
+  "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/csv-preview",
+  "tags": [
+    "csv",
+    "tsv",
+    "数据",
+    "表格",
+    "预览"
+  ]
+}
