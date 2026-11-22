@@ -1,0 +1,14 @@
+{
+  "id": "changelog-writer",
+  "name": "更新日志撰写",
+  "version": "1.0.0",
+  "description": "从 git 历史写更新日志:按用户可见变化归类、过滤重构噪音、破坏性变更写迁移动作。",
+  "author": "luban",
+  "license": "MIT",
+  "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/changelog-writer",
+  "tags": [
+    "文档",
+    "发布",
+    "changelog"
+  ]
+}

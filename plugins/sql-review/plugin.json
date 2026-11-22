@@ -1,0 +1,15 @@
+{
+  "id": "sql-review",
+  "name": "SQL 与索引审阅",
+  "version": "1.0.0",
+  "description": "审慢查询:看执行计划、识别隐式转换与前导通配符、给出可验证的改写和复合索引列顺序。",
+  "author": "luban",
+  "license": "MIT",
+  "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/sql-review",
+  "tags": [
+    "sql",
+    "数据库",
+    "性能",
+    "索引"
+  ]
+}

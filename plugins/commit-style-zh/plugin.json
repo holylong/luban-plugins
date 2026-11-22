@@ -1,0 +1,15 @@
+{
+  "id": "commit-style-zh",
+  "name": "中文提交信息",
+  "version": "1.0.0",
+  "description": "提交信息写中文:Conventional Commits 前缀、50 字标题、正文讲动机,附正反例与自检清单。",
+  "author": "luban",
+  "license": "MIT",
+  "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/commit-style-zh",
+  "tags": [
+    "git",
+    "提交信息",
+    "中文",
+    "规范"
+  ]
+}

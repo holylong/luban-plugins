@@ -1,0 +1,83 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-22T09:13:44.169Z",
+  "plugins": [
+    {
+      "id": "changelog-writer",
+      "name": "更新日志撰写",
+      "version": "1.0.0",
+      "description": "从 git 历史写更新日志:按用户可见变化归类、过滤重构噪音、破坏性变更写迁移动作。",
+      "author": "luban",
+      "license": "MIT",
+      "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/changelog-writer",
+      "tags": [
+        "文档",
+        "发布",
+        "changelog"
+      ],
+      "skills": [
+        "changelog-writer"
+      ],
+      "files": [
+        {
+          "path": "skills/changelog-writer/SKILL.md",
+          "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/changelog-writer/skills/changelog-writer/SKILL.md",
+          "sha256": "b6ab03c9b2367efecedc717ee75b81fc9eedfd19e59b1f939230bfaded2ea617",
+          "bytes": 1681
+        }
+      ]
+    },
+    {
+      "id": "commit-style-zh",
+      "name": "中文提交信息",
+      "version": "1.0.0",
+      "description": "提交信息写中文:Conventional Commits 前缀、50 字标题、正文讲动机,附正反例与自检清单。",
+      "author": "luban",
+      "license": "MIT",
+      "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/commit-style-zh",
+      "tags": [
+        "git",
+        "提交信息",
+        "中文",
+        "规范"
+      ],
+      "skills": [
+        "commit-style-zh"
+      ],
+      "files": [
+        {
+          "path": "skills/commit-style-zh/SKILL.md",
+          "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/commit-style-zh/skills/commit-style-zh/SKILL.md",
+          "sha256": "2832de19d02d59b80214f7489b1d5b6dce75ee501ac38478da50f6106f4efd84",
+          "bytes": 1743
+        }
+      ]
+    },
+    {
+      "id": "sql-review",
+      "name": "SQL 与索引审阅",
+      "version": "1.0.0",
+      "description": "审慢查询:看执行计划、识别隐式转换与前导通配符、给出可验证的改写和复合索引列顺序。",
+      "author": "luban",
+      "license": "MIT",
+      "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/sql-review",
+      "tags": [
+        "sql",
+        "数据库",
+        "性能",
+        "索引"
+      ],
+      "skills": [
+        "sql-review"
+      ],
+      "files": [
+        {
+          "path": "skills/sql-review/SKILL.md",
+          "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/sql-review/skills/sql-review/SKILL.md",
+          "sha256": "38cca3658039e961cc9b64cd66c2fd6d636da631c3a5970d9ba6d985bd2aaa57",
+          "bytes": 2244
+        }
+      ]
+    }
+  ]
+}
