@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-22T09:13:44.169Z",
+  "updatedAt": "2026-11-22T09:23:39.405Z",
   "plugins": [
     {
       "id": "changelog-writer",
@@ -24,6 +24,32 @@
           "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/changelog-writer/skills/changelog-writer/SKILL.md",
           "sha256": "b6ab03c9b2367efecedc717ee75b81fc9eedfd19e59b1f939230bfaded2ea617",
           "bytes": 1681
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "name": "代码审阅",
+      "version": "1.0.0",
+      "description": "审 diff/PR:先读调用方,再按正确性、错误处理、并发、资源、可测试性五项的固定顺序看,只报能复现的问题并给出可执行改法。",
+      "author": "luban",
+      "license": "MIT",
+      "homepage": "https://github.com/holylong/luban-plugins/tree/main/plugins/code-review",
+      "tags": [
+        "review",
+        "代码质量",
+        "并发",
+        "调试"
+      ],
+      "skills": [
+        "code-review"
+      ],
+      "files": [
+        {
+          "path": "skills/code-review/SKILL.md",
+          "url": "https://raw.githubusercontent.com/holylong/luban-plugins/main/plugins/code-review/skills/code-review/SKILL.md",
+          "sha256": "75f315cb3f91edce9211f681ceb0514b0d30c37195b73f2005a6a4dcafc9be35",
+          "bytes": 2251
         }
       ]
     },
